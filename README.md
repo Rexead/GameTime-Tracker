@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/30104042/README.md)
 # Switch-playtime
 Nintendo Switch homebrew app for tracking playtime across your installed games
 
