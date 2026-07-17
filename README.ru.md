@@ -44,3 +44,10 @@
 2. Перейдите по пути `Switch\1: SD Card\switch`. Рекомендуется создать здесь отдельную папку `switch-playtime` и закинуть туда `.nro` файл из раздела Releases.
 3. Дождитесь завершения передачи файла и выйдите из DBI.
 4. Если у вас немного устаревшая прошивка (как у меня), зайдите в Homebrew Menu (например, **Sphaira**), выберите **GameTime Tracker**, нажмите **X** для меню опций и выберите **"Установить форвардер"** — иконка появится прямо на рабочем столе Switch.
+
+## Interface
+
+<img width="1280" height="720" alt="Loading menu" src="https://github.com/user-attachments/assets/2d079614-a3ba-4456-aa39-19d8d19b5b49" />
+<img width="1280" height="720" alt="Main menu" src="https://github.com/user-attachments/assets/e894cc1a-4034-4ac0-bf3b-d848f8db502c" />
+<img width="1280" height="720" alt="Main menu2" src="https://github.com/user-attachments/assets/441cf061-c805-443f-95dc-d5ee6952040c" />
+<img width="1280" height="720" alt="Date menu" src="https://github.com/user-attachments/assets/c52ee7e1-e512-4aff-bbc1-8aa6a4c628db" />
