@@ -44,3 +44,10 @@ The app will keep getting small updates over time:
 2. Navigate to `Switch\1: SD Card\switch`. It's recommended to create a `switch-playtime` folder here and drop the `.nro` file from the Releases section into it.
 3. Wait for the transfer to finish, then exit DBI.
 4. If your firmware is a bit outdated (like mine), open the Homebrew Menu (e.g. **Sphaira**), select **GameTime Tracker**, press **X** for the options menu, and choose **"Install forwarder"** — an icon will appear right on your Switch home screen.
+
+## Interface
+
+<img width="1280" height="720" alt="Loading menu" src="https://github.com/user-attachments/assets/2d079614-a3ba-4456-aa39-19d8d19b5b49" />
+<img width="1280" height="720" alt="Main menu" src="https://github.com/user-attachments/assets/e894cc1a-4034-4ac0-bf3b-d848f8db502c" />
+<img width="1280" height="720" alt="Main menu2" src="https://github.com/user-attachments/assets/441cf061-c805-443f-95dc-d5ee6952040c" />
+<img width="1280" height="720" alt="Date menu" src="https://github.com/user-attachments/assets/c52ee7e1-e512-4aff-bbc1-8aa6a4c628db" />
