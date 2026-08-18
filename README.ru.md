@@ -59,7 +59,7 @@ make
 
 Проект распространяется по лицензии [PolyForm Noncommercial License 1.0.0](LICENSE) — свободное личное использование, компиляция для себя и распространение копий, но без коммерческого использования или перепродажи. Лицензия также прямо запрещает использовать этот код (полностью или частично) в качестве обучающих данных для AI/ML-моделей. Полный текст — в [LICENSE](LICENSE).
 
-## Interface
+## Интерфейс
 
 <img width="1280" height="720" alt="Loading menu" src="https://github.com/user-attachments/assets/2d079614-a3ba-4456-aa39-19d8d19b5b49" />
 <img width="1280" height="720" alt="Main menu" src="https://github.com/user-attachments/assets/e894cc1a-4034-4ac0-bf3b-d848f8db502c" />
