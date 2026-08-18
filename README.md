@@ -4,9 +4,7 @@
 
 Nintendo Switch homebrew that shows how much time you've spent in your games.
 
-Tested on firmware **20.5.0** — runs stably.
-
-> **The source code for this repository is currently private.** I'm still polishing and cleaning up the project, and will open it up once it's in a good state. The compiled `.nro` is available in Releases.
+Tested on firmware **20.5.0 and last** — runs stably.
 
 ## ⚠️ Disclaimer
 
@@ -44,6 +42,22 @@ The app will keep getting small updates over time:
 2. Navigate to `Switch\1: SD Card\switch`. It's recommended to create a `switch-playtime` folder here and drop the `.nro` file from the Releases section into it.
 3. Wait for the transfer to finish, then exit DBI.
 4. If your firmware is a bit outdated (like mine), open the Homebrew Menu (e.g. **Sphaira**), select **GameTime Tracker**, press **X** for the options menu, and choose **"Install forwarder"** — an icon will appear right on your Switch home screen.
+
+## Building from source
+
+Requires [devkitPro](https://devkitpro.org/wiki/Getting_Started) with the Switch toolchain (`devkitA64` + `libnx`) and `switch-libjpeg-turbo`.
+
+```bash
+git clone https://github.com/Rexead/GameTime-Tracker.git
+cd GameTime-Tracker
+make
+```
+
+See [BUILDING.md](BUILDING.md) for full setup details and project layout.
+
+## License
+
+This project is licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE) — free for personal use, compiling for yourself, and sharing copies, but not for commercial use or resale. The license also explicitly prohibits using this code (in whole or in part) as training data for AI/ML models. See [LICENSE](LICENSE) for the full text.
 
 ## Interface
 
