@@ -1,20 +1,49 @@
+**[English](BUILDING.md)** | [Українська](BUILDING.uk.md) | [Русский](BUILDING.ru.md)
+
 # Building from source
 
 ## Prerequisites
 
-1. **devkitPro** with the Switch toolchain (`devkitA64`) and **libnx**.
-   Install via the [devkitPro installer/updater](https://github.com/devkitPro/installer),
-   or on Linux/macOS with `pacman`:
+You need **devkitPro** with the Switch toolchain (`devkitA64` + `libnx`), plus
+**libjpeg-turbo** for the Switch (used to decode game icon JPEGs embedded in
+`NsApplicationControlData`).
+
+### Windows
+
+1. Download and run the [devkitPro graphical installer](https://github.com/devkitPro/installer/releases)
+   for Windows. When it asks which platforms to install, make sure
+   **Switch development** is ticked.
+2. Once it finishes, open **Start → devkitPro → MSYS2** (this is a bundled
+   MSYS2 shell with the devkitPro package repos already configured — use it
+   instead of a regular `cmd`/PowerShell window for all the steps below).
+3. In that MSYS2 window, install the Switch toolchain and libjpeg-turbo:
    ```bash
-   sudo dkp-pacman -S switch-dev
+   pacman -S switch-dev switch-libjpeg-turbo
    ```
-2. **libjpeg-turbo** for the Switch — used to decode game icon JPEGs embedded
-   in `NsApplicationControlData`:
+4. Close and reopen the MSYS2 window once (so the `DEVKITPRO` environment
+   variable set by the installer is picked up), then verify it:
    ```bash
-   sudo dkp-pacman -S switch-libjpeg-turbo
+   echo $DEVKITPRO
    ```
-3. Make sure `DEVKITPRO` is set in your environment (the devkitPro installer
-   does this for you; verify with `echo $DEVKITPRO`).
+   This should print something like `/c/devkitPro`. If it's empty, the
+   installer didn't finish correctly — rerun it.
+5. Continue with the **Build** steps below, run from the same MSYS2 window.
+
+> **Note:** `git` isn't included by default in the devkitPro MSYS2 shell. You
+> can either install it there (`pacman -S git`) or just download the
+> repository as a ZIP from GitHub (**Code → Download ZIP**) and extract it,
+> then `cd` into that folder from MSYS2 instead of using `git clone`.
+
+### Linux / macOS
+
+Install via the [devkitPro pacman](https://devkitpro.org/wiki/devkitPro_pacman)
+package manager:
+```bash
+sudo dkp-pacman -S switch-dev switch-libjpeg-turbo
+```
+Make sure `DEVKITPRO` is set in your environment (the installer does this for
+you; verify with `echo $DEVKITPRO`, log out/in again if it's empty right
+after installing).
 
 ## Build
 
