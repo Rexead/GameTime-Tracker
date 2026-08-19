@@ -10,6 +10,8 @@ Tested on firmware **20.5.0 and last** — runs stably.
 
 Requires a modded / chipped console.
 
+**Testing & stability:** This app has been tested extensively and no bugs have been found so far — resources (NS/PDM services, background threads) are properly cleaned up on exit, including when exiting mid-load. That said, no software comes with a 100% guarantee. If you run into any issue, please [open an Issue](https://github.com/Rexead/GameTime-Tracker/issues) and let me know — I'd genuinely like to hear about it.
+
 ## Features
 
 1. On launch, the app loads playtime data for all your installed games, then opens a main menu listing every game alongside how much time you've spent in it.
