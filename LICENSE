@@ -72,15 +72,3 @@ The **licensor** is the individual or entity offering these terms, and the **sof
 **Your licenses** are all the licenses granted to you for the software under these terms.
 
 **Use** means anything you do with the software requiring one of your licenses.
-
----
-
-## Additional Term: No AI / ML Training Use
-
-Notwithstanding the "Personal Uses" and "Noncommercial Organizations" sections above,
-no permission is granted, under this license or otherwise, to use this software or
-any portion of it (including but not limited to source code, comments, or derived
-data) as training, fine-tuning, evaluation, or reinforcement-learning data for any
-machine learning or artificial intelligence model, whether or not the resulting
-model or its use is commercial. Automated collection of this repository for such
-purposes is not authorized.
