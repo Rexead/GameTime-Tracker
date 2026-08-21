@@ -59,7 +59,7 @@ See [BUILDING.md](BUILDING.md) for full setup details and project layout.
 
 ## License
 
-This project is licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE) — free for personal use, compiling for yourself, and sharing copies, but not for commercial use or resale. The license also explicitly prohibits using this code (in whole or in part) as training data for AI/ML models. See [LICENSE](LICENSE) for the full text.
+This project is licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE) — free for personal use, compiling for yourself, and sharing copies, but not for commercial use or resale. See [LICENSE](LICENSE) for the full text.
 
 ## Interface
 
